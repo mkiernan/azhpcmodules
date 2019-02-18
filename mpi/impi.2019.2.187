@@ -1,0 +1,13 @@
+#%Module 1.0
+#
+#  Intel MPI 2019.2.187
+#
+conflict        mpi
+prepend-path    PATH            /opt/intel/impi/2019.2.187/intel64/bin
+prepend-path    LD_LIBRARY_PATH /opt/intel/impi/2019.2.187/intel64/lib
+prepend-path    MANPATH         /opt/intel/impi/2019.2.187/man
+setenv          MPI_BIN         /opt/intel/impi/2019.2.187/intel64/bin
+setenv          MPI_INCLUDE     /opt/intel/impi/2019.2.187/intel64/include
+setenv          MPI_LIB         /opt/intel/impi/2019.2.187/intel64/lib
+setenv          MPI_MAN         /opt/intel/impi/2019.2.187/man
+setenv          MPI_HOME        /opt/intel/impi/2019.2.187/intel64

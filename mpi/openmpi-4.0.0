@@ -1,0 +1,13 @@
+#%Module 1.0
+#
+#  OpenMPI 4.0.0
+#
+conflict        mpi
+prepend-path    PATH            /opt/openmpi-4.0.0/bin
+prepend-path    LD_LIBRARY_PATH /opt/openmpi-4.0.0/lib
+prepend-path    MANPATH         /opt/openmpi-4.0.0/share/man
+setenv          MPI_BIN         /opt/openmpi-4.0.0/bin
+setenv          MPI_INCLUDE     /opt/openmpi-4.0.0/include
+setenv          MPI_LIB         /opt/openmpi-4.0.0/lib
+setenv          MPI_MAN         /opt/openmpi-4.0.0/share/man
+setenv          MPI_HOME        /opt/openmpi-4.0.0

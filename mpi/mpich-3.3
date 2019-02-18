@@ -1,0 +1,13 @@
+#%Module 1.0
+#
+#  MPICH 3.3
+#
+conflict        mpi
+prepend-path    PATH            /opt/mpich-3.3/bin
+prepend-path    LD_LIBRARY_PATH /opt/mpich-3.3/lib
+prepend-path    MANPATH         /opt/mpich-3.3/share/man
+setenv          MPI_BIN         /opt/mpich-3.3/bin
+setenv          MPI_INCLUDE     /opt/mpich-3.3/include
+setenv          MPI_LIB         /opt/mpich-3.3/lib
+setenv          MPI_MAN         /opt/mpich-3.3/share/man
+setenv          MPI_HOME        /opt/mpich-3.3
